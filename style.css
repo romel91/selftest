@@ -1,0 +1,63 @@
+head{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+   
+}
+section{
+    height: 500px;
+    padding-bottom: 70px;
+}
+h1{
+    font-size: 50px;
+}
+.gold-highlight{
+    color: gold;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(180deg,salmon,tomato);
+    padding: 10px;
+    border-radius: 5%;
+    color: white;
+
+}
+.half-width img{
+    width: 100%;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.Dream-area{
+    background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+    background-position: right;
+}
+#front-end{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,salmon,tomato) ;
+    border-image-slice: 1;
+}
+#baby-front{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
